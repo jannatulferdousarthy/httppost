@@ -1,0 +1,21 @@
+name: flutter_http_chopper_demo
+description: A new Flutter project to demonstrate HTTP and Chopper usage
+
+publish_to: 'none' # Remove this line if you plan to publish
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"  # Specify the Dart SDK version constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2  # Updated version of the http package
+  chopper: ^8.0.3  # The latest stable version of chopper
+  json_annotation: ^4.8.0  # For JSON serialization support
+
+dev_dependencies:
+  build_runner: ^2.1.0  # Required for code generation
+  chopper_generator: ^8.0.3  # Required for generating the chopper code
+
+flutter:
+  uses-material-design: true
